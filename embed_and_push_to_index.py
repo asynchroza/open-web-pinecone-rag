@@ -11,7 +11,7 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_ENV = os.getenv("PINECONE_ENV")
 PINECONE_INDEX = os.getenv("PINECONE_INDEX")
 ROOT_DIR = "knowledgebase"
-CHUNK_SIZE = 1000
+CHUNK_SIZE = 200
 
 # Initialize Pinecone
 pinecone = pc.Pinecone(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
